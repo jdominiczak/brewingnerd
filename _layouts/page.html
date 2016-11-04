@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+  {% include /head.html %}
+
+	<body id="top">
+
+        {% include /header.html %}
+
+        <!-- Banner -->
+        <section id="banner">
+            <div class="inner">
+                <h2>The Brewing<b style="color:#FFF">Nerd</b></h2>
+                <p>A Dive Into The Nerdy Side of Homebrewing</p>
+            </div>
+        </section>
+
+		<div class="wrapper style1">
+		    <article class="container">
+		        <header class="major">
+		            <h2 class="post-title">{{ page.title }}</h2>
+		        </header>
+
+		        <section class="post-content">
+		            {{ content }}
+		        </section>
+        
+		        <footer>
+		            {% if page.previous %}
+		            <a href="{{ page.previous.url }}" class="float-left">&larr; Previous post</a> {% endif %}
+		            {% if page.next %}
+		            <a href="{{ page.next.url }}" class="float-right">Next post &rarr;</a> {% endif %}
+		        </footer>
+
+		    </article>
+
+		</div>
+        {% include /footer.html %}
+
+    </body>
+
+</html>
