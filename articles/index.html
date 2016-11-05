@@ -1,0 +1,41 @@
+---
+layout: default
+menu: Articles
+---
+
+<!-- Banner -->
+<section id="banner">
+    <div class="inner">
+        <h2>The Brewing<b style="color:#FFF">Nerd</b></h2>
+        <p>A Dive Into The Nerdy Side of Homebrewing</p>
+    </div>
+</section>
+<section id="main" class="wrapper style1">
+	    <header class="major">
+	        <h2>&nbsp;</h2>
+	    </header> 
+	<div class="container">
+		{% for post in site.posts %}
+	    <div class="row">
+	        <div class="3u">
+	            <section class="special">
+	                <a href="{{ post.url }}" class="image fit"><img src="{{ site.baseurl }}{{post.pic}}" alt="" /></a>
+	            </section>
+	        </div>
+	        <div class="9u">
+				<a href="{{ post.url }}" class="list">
+	            <section class="special">
+	                <h3 style="margin:0">{{ post.title }} </h3>
+					<small>{{ post.date | date: "%b %-d, %Y" }}{% if post.meta %} • {{ post.meta }}{% endif %}</small>
+					{{ post.excerpt }}
+                    <ul class="actions">
+                        <li><a href="{{ post.url }}" class="button alt">Read More</a></li>
+                    </ul>
+	            </section>
+				</a>
+	        </div>
+	    </div>
+		<hr class="major" />
+		{% endfor %}
+	</div>
+</section>

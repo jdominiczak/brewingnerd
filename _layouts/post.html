@@ -1,24 +1,78 @@
 ---
 layout: default
 ---
-<div class="wrapper style1">
-    <article class="container">
-        <header class="major">
-            <h2 class="post-title">{{ page.title }}</h2>
-                <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-        </header>
 
-        <section class="post-content">
-            {{ content }}
-        </section>
-        
-        <footer>
-            {% if page.previous %}
-            <a href="{{ page.previous.url }}" class="float-left">&larr; Previous post</a> {% endif %}
-            {% if page.next %}
-            <a href="{{ page.next.url }}" class="float-right">Next post &rarr;</a> {% endif %}
-        </footer>
-
-    </article>
-
-</div>
+<!-- Main -->
+<section id="main" class="wrapper style1">
+    <header class="major">
+        <h2>{{ page.title }}</h2>
+        <p>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+		
+    </header> 
+    <div class="container">
+		{% if page.pic %}
+			<img src="{{ site.baseurl }}{{ page.pic }}" class="fit image">
+		{% endif %}
+        <div class="row">
+            <div class="8u">
+                <section>
+                    {{ content }}
+                </section>
+			</div>
+			
+            <div class="4u">
+                <section>
+                    <h3>Signup for the Newsletter</h3>
+                    <p>Can't get enough of the BrewingNerd?  Want to get an email when we post new articles?  Subscribe to our newsletter!  No spam, no sales pitches, just nerdy info.</p>
+					
+					<ul class="actions">
+                        <li><a href="http://eepurl.com/cnpvy1" target="_blank" class="button alt" id="open-popup">Sign Up</a></li>
+                    </ul>
+                </section>
+                <hr />
+                <section>
+                    <h3>Recent Articles</h3>
+                    <ul class="alt">
+						{% for post in site.posts limit:10 %}
+                        <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+						{% endfor %}
+						<li><a href="{{ site.baseurl }}/articles">View All</a></li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+        <hr class="major" />
+        <div class="row">
+            <div class="6u">
+                <section class="special">
+					{% if page.previous %}
+						<h3>Previous Article</h3>
+						{% if page.previous.pic %}
+	                    	<a href="{{ page.previous.url }}" class="image fit"><img src="{{ site.baseurl }}{{page.previous.pic}}" alt="" /></a>
+						{% endif %}
+	                    <h3>{{ page.previous.title }}</h3>
+	                    <ul class="actions">
+	                        <li><a href="{{ page.previous.url }}" class="button alt">Read More</a></li>
+	                    </ul>
+					{% else %}
+						<h3>&nbsp;</h3>
+					{% endif %}
+                </section>
+            </div>
+            <div class="6u">
+                <section class="special">
+					{% if page.next %}
+						<h3>Next Article</h3>
+						{% if page.next.pic %}
+	                    	<a href="{{ page.next.url }}" class="image fit"><img src="{{ site.baseurl }}{{page.next.pic}}" alt="" /></a>
+						{% endif %}
+	                    <h3>{{ page.next.title }}</h3>
+	                    <ul class="actions">
+	                        <li><a href="{{ page.next.url }}" class="button alt">Read More</a></li>
+	                    </ul>
+					{% endif %}
+                </section>
+            </div>
+        </div>
+    </div>
+</section>

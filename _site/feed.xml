@@ -6,42 +6,35 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 04 Nov 2016 18:40:46 -0400</pubDate>
-    <lastBuildDate>Fri, 04 Nov 2016 18:40:46 -0400</lastBuildDate>
+    <pubDate>Sat, 05 Nov 2016 19:46:01 -0400</pubDate>
+    <lastBuildDate>Sat, 05 Nov 2016 19:46:01 -0400</lastBuildDate>
     <generator>Jekyll v3.3.0</generator>
     
       <item>
-        <title>Second post</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/images/pic03.jpg&quot; class=&quot;fit image&quot; /&gt;
-Curabitur orci turpis, egestas placerat velit eget, dictum pellentesque ipsum. Suspendisse potenti. Suspendisse ac maximus arcu. Sed ut mattis ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum eleifend odio vitae varius aliquam. Quisque ac pretium nisi. Curabitur tempus urna ac ultrices commodo.&lt;/p&gt;
+        <title>The wild world of cleaning and sanitation</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;There are two types of brewers, those who have infected their beer and those who haven’t noticed it yet.&lt;br /&gt;
+-A Wise Homebrewer&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;Curabitur iaculis est at mattis mattis. Aliquam erat volutpat. Etiam vitae cursus quam. Nunc ultricies nunc non lorem fringilla cursus. Etiam dapibus libero ac turpis accumsan pulvinar. Sed auctor velit eget mi consequat bibendum. Aliquam interdum purus eget metus pretium ullamcorper.&lt;/p&gt;
+&lt;p&gt;An infected beer is an insidious and disheartening problem.  When I was a new brewer, I brewed the same beer three times in a row.  I kept detailed notes and was focusing on my repeatability.  To my surprise the third batch tasted horrendous.  It had a thick, stringy, pellicle sitting on top.  I followed the exact same steps, I cleaned my equipment the exact same way.  What I didn’t realize is that my process was flawed.  My lack of understanding provided a window of opportunity for these unwanted microbes to take hold.  Why didn’t it happen on the other two batches? Sheer luck.&lt;/p&gt;
 
-&lt;p&gt;Pellentesque feugiat ex non ligula commodo, eget varius tortor pellentesque. Pellentesque id tortor felis. Cras fringilla ante eget orci laoreet, non consequat urna suscipit. Pellentesque luctus ac nulla vitae porttitor. Proin sed tortor quis magna efficitur efficitur a id leo. Donec efficitur augue et laoreet maximus. Ut semper egestas porttitor. Phasellus sagittis vulputate sem at laoreet.&lt;/p&gt;
+&lt;p&gt;Contamination in the brewing process is not just a homebrewer’s problem.  &lt;a href=&quot;http://revbrew.com/whats-new/detail/ale-product-withdrawal-10-17-2016&quot;&gt;Foreign&lt;/a&gt;  &lt;a href=&quot;http://www.denverpost.com/2016/09/12/left-hand-brewing-recalls-milk-stout-nitro/&quot;&gt;yeasts&lt;/a&gt; and &lt;a href=&quot;http://www.chicagobusiness.com/article/20160715/BLOGS09/160719858&quot;&gt;bacterial infections&lt;/a&gt; affect even the big boys.  The Brewing Science Institute even provides a nice &lt;a href=&quot;http://www.brewingscience.com/PDF/BSI_brewers_lab_handbook.pdf&quot;&gt;handbook&lt;/a&gt; for QA staff.  The goal they present is to have less than or equal to 10 colony forming units.  As we’ve seen from these recent recalls, this is not a simple problem.  While homebrewers may not have the benefit of a decked out QA lab with microscopes, slides, incubators and petri dishes, we also don’t have challenge of properly cleaning and sanitizing massive fermenters, hundreds of feet of piping, and managing huge vats of caustic and acid chemicals.&lt;/p&gt;
 
-&lt;p&gt;Sed lobortis urna ut mi volutpat, sit amet euismod sapien tincidunt. Nulla facilisi. Pellentesque quis tempus neque. Mauris dictum ac sapien nec congue. In hac habitasse platea dictumst. Duis id pellentesque nisl. Morbi eget massa magna.&lt;/p&gt;
+&lt;p&gt;Developing a sanitary process for your homebrewing is not as difficult.  Although experienced homebrewers usually have their preferences, there are many commercial options available at local homebrew stores.   I woud caution a new brewer to be wary of what comes with some homebrew kits.  I’ve seen the documentation that comes with some of these kits that run fast and loose with these very specific terms and provide just downright wrong information.&lt;/p&gt;
+
+&lt;p&gt;In this series we take a deeper look into what cleaning and sanitization mean and how to get the best results during your brew day.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Part 1: Introduction (You’re Here)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Part 2: Common Brewing Contaminants&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Part 3: Cleaning Vs. Sanitizing&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Part 4: Best Practices and Tips and Tricks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
-        <pubDate>Wed, 02 Nov 2016 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/2016/11/02/Second-Post.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2016/11/02/Second-Post.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>First post</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/images/pic03.jpg&quot; class=&quot;fit image&quot; /&gt;
-Curabitur orci turpis, egestas placerat velit eget, dictum pellentesque ipsum. Suspendisse potenti. Suspendisse ac maximus arcu. Sed ut mattis ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum eleifend odio vitae varius aliquam. Quisque ac pretium nisi. Curabitur tempus urna ac ultrices commodo.&lt;/p&gt;
-
-&lt;p&gt;Curabitur iaculis est at mattis mattis. Aliquam erat volutpat. Etiam vitae cursus quam. Nunc ultricies nunc non lorem fringilla cursus. Etiam dapibus libero ac turpis accumsan pulvinar. Sed auctor velit eget mi consequat bibendum. Aliquam interdum purus eget metus pretium ullamcorper.&lt;/p&gt;
-
-&lt;p&gt;Pellentesque feugiat ex non ligula commodo, eget varius tortor pellentesque. Pellentesque id tortor felis. Cras fringilla ante eget orci laoreet, non consequat urna suscipit. Pellentesque luctus ac nulla vitae porttitor. Proin sed tortor quis magna efficitur efficitur a id leo. Donec efficitur augue et laoreet maximus. Ut semper egestas porttitor. Phasellus sagittis vulputate sem at laoreet.&lt;/p&gt;
-
-&lt;p&gt;Sed lobortis urna ut mi volutpat, sit amet euismod sapien tincidunt. Nulla facilisi. Pellentesque quis tempus neque. Mauris dictum ac sapien nec congue. In hac habitasse platea dictumst. Duis id pellentesque nisl. Morbi eget massa magna.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 01 Nov 2016 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/2016/11/01/First-Post.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2016/11/01/First-Post.html</guid>
+        <pubDate>Sat, 29 Oct 2016 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2016/10/29/the-wild-world-of-cleaning-and-sanitation.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/10/29/the-wild-world-of-cleaning-and-sanitation.html</guid>
         
         
       </item>

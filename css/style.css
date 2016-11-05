@@ -26,6 +26,11 @@
 		color: #629DD1;
 		text-decoration: underline;
 	}
+	
+	.list {
+	    text-decoration: none;
+	    color: #555f66;
+	}
 
 		a:hover {
 			text-decoration: none;
@@ -190,7 +195,7 @@
 
 	header.major {
 		text-align: center;
-		margin: 0 0 4em 0;
+		margin: 0 0 0 0;
 	}
 
 		header.major h2 {
@@ -199,7 +204,7 @@
 
 		header.major h2 + p {
 			font-size: 1.5em;
-			margin: -1em 0 2em 0;
+			margin: -1em 0 0.3em 0;
 		}
 
 /* Form */
