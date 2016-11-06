@@ -1,0 +1,10 @@
+---
+pic: /images/caseforhomebrewing.jpg
+---
+We homebrewers are a quixotic bunch.  Some of us may spend hundreds (if not thousands) of dollars on equipment.  Some of us are slow to learn our lessons and are forced to dump gallons of undrinkable liquid down the drain.  Some of us structure our free time to be able to spend hours in blazing heat or frigid cold while hunched over the brewing system left to just hope that the final product meets our lofty goals.  
+
+So why do it?  Craft beer has exploded.  Great beer is available in far-flung corners of the country.  Craft Breweries are opening at an exponential rate.  So why do we homebrew?  
+
+I do not claim to speak for all homebrewers, but I am friends with quite a few.  Homebrewers want to make a hight quality product.  Some of us just want the satisfaction that we are able to make a product that most of our neighbors and friends just go out and buy.  There appears to be a significant crossover with people who like to do things themselves (just look at the DIY community).  When I jumped into the hobby a decade ago, the homebrewing market was small but plentiful.  Today, there are cottage manufacturers growing into market players, homebrewing startups hanging up the proverbial shingle, and exponential growth in the market size.  While the DIY route is no longer an necessity, there is pride in not only making great beer but also in designing and building a brewing system.  
+
+If you are on the fence about starting to homebrew, know that there are a plethora of resources available to you these days.  Homebrewing blogs (like this one) are popping up like weeds.  There are homebrew clubs across the country and across the world filled with knowledgable, kind, and generous homebrewers who will help in any way possible.  Personally, I give back because far wiser and far more intelligent homebrewers have given me the knowledge to get where I am today.

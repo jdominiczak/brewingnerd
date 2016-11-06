@@ -47,6 +47,7 @@
 
 	p {
 		margin: 0 0 2em 0;
+		text-align: justify;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -205,6 +206,7 @@
 		header.major h2 + p {
 			font-size: 1.5em;
 			margin: -1em 0 0.3em 0;
+			text-align:center;
 		}
 
 /* Form */
@@ -1055,6 +1057,7 @@
 		#banner p {
 			font-size: 1.5em;
 			margin-bottom: 2em;
+			text-align: center;
 		}
 
 			#banner p a {

@@ -16,4 +16,3 @@ In this series we take a deeper look into what cleaning and sanitization mean an
 - [Part 1: Introduction (You're Here)](#)
 - [Part 2: Common Brewing Contaminants](#)
 - [Part 3: Cleaning Vs. Sanitizing](#)
-- [Part 4: Best Practices and Tips and Tricks](#)
